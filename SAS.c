@@ -109,11 +109,11 @@ bool operations()
 	
                          	cleanCls();
 }
-////////////////////////////affichage//////////// 
-/*
+////////////////////////////////////////----------------------affichage---------------------------////////////////////////////////////////////////////// 
+
 void afichage(){
 
- int choix1, choix2;
+   int choix1, choix2;
     int  i, j;
     struct client vraide;
 	
@@ -172,9 +172,10 @@ void afichage(){
                         break;
                     }
           }
-          while(choix1 !=0);
+          
+}while(choix1 !=0);
+
 }
-*/
 //////////////////////---------------FONCTION PRINCIPALE
 int main(){
 	             int choix, nbrNewAccount, i;
@@ -218,7 +219,7 @@ int main(){
 				break;
 			case 4 :
 				cleanCls();
-				
+				afichage();
 				break;
 			case 6 :
 				cleanCls();
